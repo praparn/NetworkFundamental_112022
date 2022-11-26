@@ -8,7 +8,7 @@ On this part we will basic query dns record with nslookup and dig
   1.4 A record query: "nslookup -debug -type=a google.com 8.8.8.8","nslookup -debug -type=a scb.co.th 8.8.8.8","nslookup -debug -type=a cyberciti.biz 8.8.8.8"
   1.5 MX record: "nslookup -debug -type=mx google.com 8.8.8.8","nslookup -debug -type=mx scb.co.th 8.8.8.8","nslookup -debug -type=mx cyberciti.biz 8.8.8.8"
   1.6 TXT record: "nslookup -debug -type=txt google.com 8.8.8.8","nslookup -debug -type=txt scb.co.th 8.8.8.8","nslookup -debug -type=txt cyberciti.biz 8.8.8.8"
-  1.7 All record query: "nslookup -debug -type=any google.com 8.8.8.8","nslookup -debug -type=any google.com 8.8.8.8","nslookup -debug -type=any cyberciti.biz 8.8.8.8"
+  1.7 All record query: "nslookup -debug -type=any google.com 8.8.8.8","nslookup -debug -type=any scb.co.th 8.8.8.8","nslookup -debug -type=any cyberciti.biz 8.8.8.8"
 
 2. Query dns via dig tools: (google.com, scb.co.th, cyberciti.biz)
   2.1 Basic query: "dig @8.8.8.8 google.com","dig @8.8.8.8 scb.co.th","dig @8.8.8.8 cyberciti.biz"

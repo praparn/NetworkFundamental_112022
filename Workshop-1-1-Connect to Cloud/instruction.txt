@@ -8,4 +8,4 @@ Connection to Cloud
 6. Check route table by command: ip r (Obsolete command: netstat -rn)
 7. Check arp table by command: ip neigh (Obsolete command: arp -a)
 8. Check all connection from other device to host by command: ss -t -u -a -n (Obsolete command: netstat -t -u -n -a)
-9. Check public ip address of machine by command: curl ifconfig.co ==> Record your public ip address on lab sheet
+9. Check public ip address of machine by command: curl ifconfig.me ==> Record your public ip address on lab sheet
